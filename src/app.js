@@ -70,7 +70,8 @@ app.get('/help',(req,res)=>{
     res.render('help',{
         title: 'Help',
         contact_detail: 'sharma.57@iitj.ac.in',
-        name: 'Vipul Sharma'
+        name: 'Vipul Sharma',
+        alternate_email: 'vipulsharma.rm@gmail.com'
     })
 })
 
